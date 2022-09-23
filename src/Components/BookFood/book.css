@@ -1,0 +1,15 @@
+.book-food {
+  margin-top: 5rem;
+  width: 100%;
+  background: url("../images/about.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 71.91px;
+  padding: 4.3rem 0;
+}
+.books h2 {
+  color: #fff;
+  text-shadow: 3px 0px 7px rgba(247, 245, 241, 0.8),
+    -3px 0px 7px rgba(243, 243, 241, 0.8), 0px 4px 7px rgba(247, 244, 235, 0.8);
+  font-size: 35px;
+}

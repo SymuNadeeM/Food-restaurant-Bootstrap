@@ -1,0 +1,40 @@
+.newslet-section {
+  margin-top: 5rem;
+  padding: 3rem;
+}
+.newsletter {
+  width: 55%;
+  margin: 0 auto;
+}
+.newsletter .form-control {
+  height: 3.25rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  width: 100%;
+  background: transparent;
+  border: 0.1875rem solid gray;
+  color: black;
+  font-weight: 700;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+/* .submit_button button {
+  margin-left: -15px;
+} */
+
+@media (max-width: 767px) {
+  .newslet-section {
+    padding: 1rem;
+  }
+  .newsletter {
+    width: 75%;
+  }
+  .newsletter .main-btn {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}

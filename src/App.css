@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-color: #ab2c48;
+  --secondry-color: #43121d;
+  --third-color: #f98169;
+  --text-color: #555;
+}
+p {
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 1.75rem;
+  letter-spacing: 1px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.main-btn {
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 1.5627rem;
+  background-color: var(--primary-color);
+  border: 0.5px solid var(--primary-color);
+  color: #fff;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  box-shadow: 0, 2px, 10px, -1px rgb(0 0 0 /19%);
+  transition: all 0.4s ease-out 0s;
+}
+.main-btn:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+.white-btn {
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 25px;
+  background-color: White;
+  border: 0.5px solid var(--text-color);
+  color: var(--text-color);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+  transition: all 0.4s ease-out 0s;
+}
+.white-btn:hover {
+  background-color: var(--primary-color);
+  border: 0.5px solid var(--primary-color);
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Navigation */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+::-webkit-scrollbar {
+  width: 0.525rem;
 }
-
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar-track {
+  background: #fff;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
 }

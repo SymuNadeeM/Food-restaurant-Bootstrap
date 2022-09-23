@@ -1,0 +1,21 @@
+.explore-section .card {
+  border: none;
+  background-color: transparent;
+  border-radius: 0.937rem;
+}
+.explore-section .card img {
+  border-radius: 0.937rem;
+  object-fit: cover;
+}
+.explore-section .card span {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid #eee;
+}
+.explore-section .card span del {
+  color: gray;
+  margin-left: 0.5rem;
+}

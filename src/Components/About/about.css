@@ -1,0 +1,15 @@
+.food-types {
+  padding-top: 3.25rem;
+}
+.food-types ul li {
+  font-size: 1rem;
+  color: var(--text-color);
+  line-height: 32px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.checkMark {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-right: 5px;
+}

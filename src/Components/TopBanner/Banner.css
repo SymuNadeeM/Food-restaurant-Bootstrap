@@ -1,0 +1,13 @@
+.top_banner {
+  width: 100%;
+  background: url("../images/ba2.webp") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  padding: 16.75rem 0 9.37rem;
+}
+/* h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: var(--secondry-color);
+} */

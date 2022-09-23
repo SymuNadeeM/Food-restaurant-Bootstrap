@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import About from './Components/About/About';
+import BookFood from './Components/BookFood/BookFood';
+import Counter from './Components/Counter/Counter';
+import Explor from './Components/Explor/Explor';
+import Faq from './Components/Faq/Faq';
+import Footer from './Components/Footer/Footer';
+import NavbarBar from './Components/Navbar/Navbar';
+import NewsLater from './Components/NewsLater/NewsLater';
+import Stoty from './Components/Story/Stoty';
+import Testmonial from './Components/testimonial/Testmonial';
+import Topbanner from './Components/TopBanner/Topbanner';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <NavbarBar/>
+       <Topbanner/>
+       <Counter/>
+       <About/>
+       <Stoty/>
+       <Explor/>
+       <Testmonial/>
+       <Faq/>
+       <BookFood/>
+       <NewsLater/>
+       <Footer/>
+       
+    </>
   );
 }
 

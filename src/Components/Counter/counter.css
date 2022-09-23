@@ -1,0 +1,17 @@
+.counter_section {
+  background-color: var(--secondry-color);
+  padding: 2.5rem 0;
+}
+.counter_section p {
+  color: #fff;
+  text-transform: uppercase;
+}
+.counter_section h2 span {
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .count_sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

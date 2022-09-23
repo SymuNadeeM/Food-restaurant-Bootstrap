@@ -1,0 +1,11 @@
+.faq-section {
+  margin-top: 5rem;
+}
+.text-center h2 {
+  font-weight: 700;
+  color: var(--secondry-color);
+}
+.faq-section h4 {
+  color: var(--secondry-color);
+  font-weight: 600;
+}
